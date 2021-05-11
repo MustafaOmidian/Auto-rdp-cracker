@@ -1,4 +1,4 @@
-# autoRdpCracker
+# auto-rdp-cracker
 A python3 full automatic rdp cracker based on hydra THC
 
 ## HOW TO COMPILE
