@@ -6,6 +6,9 @@ import socket
 import threading
 import subprocess
 
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 #Grab ip ranges from server and save it in a text file and make range
 def grab_ip_list():
     c = input("Enter Country number :\n 1-China \n 2-India\n 3-UnitedStates\n -> Default is US\n ")
