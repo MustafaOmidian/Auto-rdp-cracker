@@ -59,7 +59,7 @@ def check_alive_ips(count,ip):
     conn = is_ips_port_open(ip)
     if(conn):
         count+=1
-        print ("Port is open for :))))))))))",ip)
+        print ("Port is open for :)))))))))))",ip)
         with open("ips_with_open_ports.txt","a") as inp:
             ip=str(ip)
             inp.write('rdp://')
