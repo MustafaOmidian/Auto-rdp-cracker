@@ -138,7 +138,7 @@ def main():
 
 #grabs ip list --- checks alive ips ---- and if alive ips <10 => search again for ips
 print("===========================================================")
-print("Auto RDP Cracker BY @NICOTEENE")
+print("Auto RDP Cracker BY Nic Omidian")
 print("===========================================================")
 grab_ip_list()
 if os.path.isfile('ips_with_open_ports.txt'):
